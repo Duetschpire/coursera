@@ -8,7 +8,7 @@ for (var i in names) {
   if (firstLetter == 'j') {
      window.byeSpeaker.name(names[i]);
   } else {
-     window.helloSpeaker.name(names[i]);
+     window.helloSpeaker.speak(names[i]);
   }
 }
 })(window);
