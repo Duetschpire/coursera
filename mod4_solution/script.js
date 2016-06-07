@@ -6,9 +6,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 for (var i in names) {
   var firstLetter = ((names[i]).charAt(0)).toLowerCase();
   if (firstLetter == 'j') {
-     window.byeSpeaker.speak(names[i]);
+     window.byeSpeaker.name(names[i]);
   } else {
-     window.helloSpeaker.speak(names[i]);
+     window.helloSpeaker.name(names[i]);
   }
 }
 })(window);
